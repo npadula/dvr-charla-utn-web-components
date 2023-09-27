@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 2rem;
+    background-color: #fff;
+    width: 350px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* 
+.task-card {
+    background-color: #E9E9E9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-card .task-text {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.task-card.completed .task-text {
+    text-decoration: line-through;
+}
+
+.task-card:hover {
+    background-color: #D0D0D0;
+}
+
+
+.remove-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 0 5px; 
+    font-size: 20px; 
+    line-height: 24px; 
+    height: 24px; 
+    width: 24px; 
+    border-radius: 50%; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; 
+}
+
+.remove-btn:hover {
+    background-color: darkred;
+} */

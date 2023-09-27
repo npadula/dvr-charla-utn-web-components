@@ -1,0 +1,68 @@
+/* Button styling */
+button {
+  width: auto; /* Adjusts to the content */
+  padding: 8px 12px; /* A bit more horizontal padding */
+  background-color: #4CAF50; /* A fresh green color */
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px; /* A slightly more subtle rounding */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* A gentle shadow */
+  transition: all 0.3s; /* Transition for all properties */
+}
+
+button:hover {
+  background-color: #45a049; /* A darker shade of green */
+  box-shadow: none; /* Removing the shadow on hover */
+}
+
+/* Task card styling */
+.task-card {
+  background-color: #F6F6F6;
+  padding: 12px; /* A bit more padding */
+  margin-bottom: 12px;
+  border: 1px solid #DDDDDD; /* Adding a subtle border */
+  border-radius: 5px; /* More rounded */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: box-shadow 0.3s; /* Transitioning shadow */
+}
+
+.task-card .task-text {
+  flex-grow: 1;
+  margin-left: 14px; /* A bit more space */
+  font-size: 16px; /* A slightly bigger font size */
+  color: #333; /* Darker text color */
+}
+
+.task-card.completed .task-text {
+  color: #999; /* A gray text for completed tasks */
+  text-decoration: line-through;
+}
+
+.task-card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Gentle shadow on hover */
+}
+
+/* Close button styling */
+.remove-btn {
+  background-color: #E57373; /* A lighter shade of red */
+  color: #fff;
+  border: none;
+  padding: 0 6px; 
+  font-size: 20px;
+  line-height: 24px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s; /* Added transform transition */
+  margin-left: 14px; 
+}
+
+.remove-btn:hover {
+  background-color: #C62828; /* A darker shade of red */
+  transform: scale(1.1); /* Slightly enlarging the button on hover */
+}
